@@ -192,8 +192,12 @@ def bfs(tree):
             q.enq(node.get_right_child())
 
     return visit_order
-
-
+#DFS function can be found over here :
+'''
+    In-Order-> https://github.com/dhruv1206/Data-Structures-And-Algorithms-using-Python/blob/main/In-Order%20DFS%20of%20a%20Binary%20Tree%20using%20Recursion%20in%20Python.py
+    Post-Order->https://github.com/dhruv1206/Data-Structures-And-Algorithms-using-Python/blob/main/Post-Order%20DFS%20of%20a%20Binary%20Tree%20using%20Recursion%20in%20Python.py
+    Pre-Order->https://github.com/dhruv1206/Data-Structures-And-Algorithms-using-Python/blob/main/Pre-Order%20DFS%20of%20a%20Tree%20using%20Recursion%20in%20Python.py
+'''
 
 class Queue():
     def __init__(self):
