@@ -70,3 +70,20 @@ def f(prefix):
         print('')
 
 f('an')
+
+
+
+#IF ON JUPYTER NOTEBOOK UNCOMMENT THE CODE BELOW:
+# from ipywidgets import widgets
+# from IPython.display import display
+# from ipywidgets import interact
+# def f(prefix):
+#     if prefix != '':
+#         prefixNode = MyTrie.find(prefix)
+#         if prefixNode:
+#             print('\n'.join(prefixNode.suffixes()))
+#         else:
+#             print(prefix + " not found")
+#     else:
+#         print('')
+# interact(f,prefix='');
